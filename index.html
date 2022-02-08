@@ -99,6 +99,22 @@
           </section>
 
           <section data-background="#fff">
+            <p>I can tell what you&rsquo;re thinking... <b>that looks a bit dry and boring</b>!</p>
+          </section>
+
+          <section data-background="#fff">
+            <p>Understanding the accessibility tree, accessible names and descriptions... these are <b>critical aspect of web accessibility</b>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p>If you understand this stuff, it helps in so many areas: <b>creating new components, trouble-shooting, auditing</b>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p>So, let&rsquo;s dive into the weird world of <b>accessibility trees, names and descriptions</b>.</p>
+          </section>
+
+          <section data-background="#fff">
             <p>This presentation and all resources are <b>available online</b>.</p>
             <p><a class="font-sm" href="https://intopia.github.io/webinar-2022-02/" target="_blank">https://intopia.github.io/webinar-2022-02/</a></p>
           </section>
@@ -122,7 +138,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>A visible text label is <b>a label that is presented on-screen as text</b>. Visible labels can include:</p>
+            <p>A visible text label is <b>a label that is presented on-screen as text</b>. Let&rsquo;s look at some examples:</p>
           </section>
 
           <section data-background="#fff">
@@ -223,7 +239,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>However, this is not a good practice. Accessible names <b>should always match some aspect</b> of the visible text label.</p>
+            <p>Accessible names <b>should always match some aspect</b> of the visible text label.</p>
           </section>
 
           <section data-background="#fff">
@@ -264,10 +280,6 @@
           <section data-background="#fff">
             <p>And here is another example of <code>&lt;input&gt;</code> element with a <b>different method</b>:</p>
             <p><a href="examples/07-accessible-description.html" target="_blank">Example 07</a></p>
-          </section>
-
-          <section data-background="#fff">
-            <p>Just like accessible names, we&rsquo;ll be diving a lot deeper into <b>accessible descriptions</b> soon.</p>
           </section>
         </section>
 
@@ -354,7 +366,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>We&rsquo;ll then <b>remove each accessible name option one-by-one</b> until we&rsquo;re left with no accessible name.</p>
+            <p>We&rsquo;ll then <b>remove each accessible name option one by one</b> until we&rsquo;re left with no accessible name.</p>
           </section>
 
           <section data-background="#fff">
@@ -406,12 +418,17 @@
             </ul>
           </section>
 
+
           <section data-background="#fff">
-            <p>Where possible, <b>always try to use the</b> <code>aria-describedby</code> <b>attribute</b> to define the accessible description.</p>
+            <p>In reality, it would be <b>extremely rare</b> to have to add a description to the <code>&lt;a&gt;</code> and <code>&lt;button&gt;</code> elements elements.</p>
           </section>
 
           <section data-background="#fff">
-            <p>Unlike the <code>title</code>, it can be <b>presented on-screen</b> and is therefore available to all users.</p>
+            <p>However, if it was important, the <code>aria-describedby</code> attribute <b>would be much better</b> than the <code>title</code> attribute.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p>Using <code>aria-describedby</code>, the content can be <b>presented on-screen</b> and is therefore available to all users.</p>
           </section>
         </section>
 
@@ -471,7 +488,21 @@
           </section>
 
           <section data-background="#fff">
-            <p>In the case of <code>&lt;input&gt;</code> and <code>&lt;textarea&gt;</code> elements, the accessible name is <b>defined in the following order</b>:</p>
+            <p>This group of elements <b>includes the following</b>:</p>
+          </section>
+
+          <section data-background="#222">
+<pre><code contenteditable="true">&lt;input type="text"&gt;
+&lt;input type="password"&gt;
+&lt;input type="search"&gt;
+&lt;input type="tel"&gt;
+&lt;input type="email"&gt;
+&lt;input type="url"&gt;
+&lt;textarea&gt;&lt;/textarea&gt;</code></pre>
+          </section>
+
+          <section data-background="#fff">
+            <p>In these cases, the accessible name is <b>defined in the following order</b>:</p>
           </section>
 
           <section data-background="#fff">
@@ -504,10 +535,6 @@
           </section>
 
           <section data-background="#fff">
-            <p>We&rsquo;ll then <b>remove each accessible name option one by one</b>, until we&rsquo;re left with no accessible name.</p>
-          </section>
-
-          <section data-background="#fff">
             <ul>
               <li><a href="examples/17-name-aria-labelledby.html" target="_blank">Example 17</a></li>
               <li><a href="examples/18-name-aria-label.html" target="_blank">Example 18</a></li>
@@ -535,7 +562,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>We&rsquo;re now going to look at an <code>&lt;input&gt;</code> example with <b>both of these accessible description options</b> applied.</p>
+            <p>As before, we look at an <code>&lt;input&gt;</code> to see <b>both of these accessible description options</b> applied.</p>
           </section>
 
           <section data-background="#fff">
@@ -543,10 +570,6 @@
               <li>The <code>aria-describedby</code> has a value: “One”</li>
               <li>The <code>title</code> has a value: “Two”</li>
             </ul>
-          </section>
-
-          <section data-background="#fff">
-            <p>Again, we&rsquo;ll then <b>remove each accessible description option one by one</b> until we&rsquo;re left with no accessible description.</p>
           </section>
 
           <section data-background="#fff">
@@ -576,12 +599,12 @@
           </section>
 
           <section data-background="#fff">
-            <p>Despite the clearly defined rules for calculating names, the <code>placeholder</code> beats the <code>title</code> in <b>most browser and screen reader combinations</b>.</p>
+            <p>Despite clearly defined rules for calculating names, the <code>placeholder</code> beats the <code>title</code> in <b>most browser and screen reader combinations</b>.</p>
             <p><a href="examples/20-name-title.html" target="_blank">Example 20</a></p>
           </section>
 
           <section data-background="#fff">
-            <p>Also, if an accessible name is in place, the <code>placeholder</code> is often <b>still announced</b> in most browser and screen reader combinations.</p>
+            <p>Also, even if an accessible name is in place, the <code>placeholder</code> is often <b>still announced</b> in most browser and screen reader combinations.</p>
           </section>
 
           <section data-background="#fff">
@@ -593,7 +616,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>This is just one of many reasons why the <code>placeholder</code> should <b>never be used as the only visible text label or accessible name</b> for elements.</p>
+            <p>This is just one of many reasons why the <code>placeholder</code> should <b>never be used</b> as the only visible text label, the accessible name or the description.</p>
           </section>
         </section>
 
@@ -666,14 +689,14 @@
             <ol>
               <li>If present, use <code>aria-labelledby</code>.</li>
               <li>Otherwise, if present, use <code>aria-label</code>.</li>
-              <li>Otherwise, if present, use <code>&lt;legend&gt;</code>.</li>
+              <li>Otherwise, if present, use <code>&lt;legend&gt;</code> content.</li>
               <li>Otherwise, if present, use <code>title</code>.</li>
               <li>Otherwise, there is no accessible name.</li>
             </ol>
           </section>
 
           <section data-background="#fff">
-            <p>Whenever possible, <b>always try to use the</b> <code>&lt;legend&gt;</code> <b>elements content</b> as the accessible name, as it is available to all users.</p>
+            <p>Whenever possible, always try to use <b>the content within the</b> <code>&lt;legend&gt;</code> as the accessible name, as it is available to all users.</p>
           </section>
 
           <section data-background="#fff">
