@@ -107,6 +107,10 @@ s {
 lists
 -----------------------*/
 
+ul {
+  padding: 0 2em;
+}
+
 ul,
 ol {
   margin: 0 0 1em;
