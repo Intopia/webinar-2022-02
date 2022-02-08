@@ -37,6 +37,7 @@
           <h1>Accessible names and descriptions</h1>
         </section>
 
+        <!--
         <section data-background="#fff">
           <div class="instructions">
             <h3 class="instructions-heading">Slide instructions</h3>
@@ -47,6 +48,7 @@
             <div><kbd>F</kbd> to <b>enter presentation mode</b> and <kbd>ESC</kbd> to exit.</div>
           </div>
         </section>
+        -->
 
 
 
@@ -55,18 +57,21 @@
 ––––––––––––––––––––––––––  -->
 
 
-
         <section>
           <section data-background="#15828E">
             <h2>Acknowledgement of Country</h2>
           </section>
 
           <section data-background="#fff">
-            <p>I begin today by acknowledging the <b>Cammeraygal people</b>, Traditional Custodians of the land on which I am hosting the meeting today.</p>
+            <p>I begin today by acknowledging the <b>Cammeraygal people</b>, who are the Traditional Custodians of the land on which I am hosting the meeting today.</p>
           </section>
 
           <section data-background="#fff">
-            <p>I pay my respects to <b>their Elders past and present</b>. I extend that respect to Aboriginal and Torres Strait Islander peoples here today.</p>
+            <p>I pay my respects to <b>their Elders, past and present</b>.</p>
+          </section>
+
+          <section data-background="#fff">
+            <p>I also extend that respect to all <b>Aboriginal and Torres Strait Islander peoples</b> attending today&rsquo;s session.</p>
           </section>
         </section>
 
@@ -84,14 +89,14 @@
           </section>
 
           <section data-background="#fff">
-            <h4>What we'll cover</h4>
-            <ul>
+            <h4>What we&rsquo;ll cover</h4>
+            <ol>
               <li>Visible text labels</li>
               <li>Accessible names</li>
-              <li>Do they have to match?</li>
+              <li>Do these two concepts have to match?</li>
               <li>Accessible descriptions</li>
               <li>Which accessible names and descriptions win?</li>
-            </ul>
+            </ol>
           </section>
 
           <section data-background="#fff">
@@ -100,7 +105,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>If you have any questions, please <b>use the Q and A feature throughout the session</b> and I'll try to get to your questions at the end.</p>
+            <p>Please <b>add any questions to the Q and A feature.</b> I&rsquo;ll try to get to your questions at the end.</p>
           </section>
         </section>
 
@@ -172,8 +177,12 @@
           </section>
 
           <section data-background="#fff">
-            <p>Let’s look at an example <code>&lt;button&gt;</code> element to <b>try and find it’s accessible name</b>:</p>
+            <p>Let&rsquo;s look at an example <code>&lt;button&gt;</code> element to <b>try and find the accessible name</b>:</p>
             <p><a href="examples/01-button-name.html" target="_blank">Example 01</a></p>
+          </section>
+
+          <section data-background="#fff">
+            <p>We&rsquo;ll be diving a lot deeper into <b>accessible names</b> soon.</p>
           </section>
         </section>
 
@@ -187,11 +196,11 @@
 
         <section>
           <section data-background="#15828E">
-            <h2>Do they have to match?</h2>
+            <h2>Do these two concepts have to match?</h2>
           </section>
 
           <section data-background="#fff">
-            <p>In some cases, the accessibility name matches the visible text label.</p>
+            <p>In some cases, the accessibility name <b>matches the visible text label.</b></p>
             <p><a href="examples/02-matching.html" target="_blank">Example 02</a></p>
           </section>
 
@@ -205,30 +214,25 @@
           </section>
 
           <section data-background="#fff">
-            <p>The accessible name could also include additional content <b>after the visible text label</b>.</p>
+            <p>Or <b>after the visible text label</b>.</p>
             <p><a href="examples/04-additional-content-after.html" target="_blank">Example 04</a></p>
           </section>
 
           <section data-background="#fff">
-            <p>The accessible name could even include additional content <b>before and after the visible text label</b>.</p>
-            <p><a href="examples/05-additional-content-before-and-after.html" target="_blank">Example 05</a></p>
-          </section>
-
-          <section data-background="#fff">
             <p>It is possible to present <b>entirely different content</b> in the accessibility tree.</p>
-            <p><a href="examples/06-different-accessible-name.html" target="_blank">Example 06</a></p>
+            <p><a href="examples/05-different-accessible-name.html" target="_blank">Example 05</a></p>
           </section>
 
           <section data-background="#fff">
-            <p>However, this is not a good practice. Accessible names <b>should always match at least some aspect</b> of the visible text label.</p>
+            <p>However, this is not a good practice. Accessible names <b>should always match some aspect</b> of the visible text label.</p>
           </section>
 
           <section data-background="#fff">
-            <p>A mismatch between the visible text label and the accessible name could cause <b>confusion for some specific types of users</b>.</p>
+            <p>A mismatch between the visible text label and the accessible name could <b>confuse some users</b>.</p>
           </section>
 
           <section data-background="#fff">
-            <p>For example, some sighted users also use screen readers. If the visible text label doesn’t match the accessible name, <b>this could be confusing</b>.</p>
+            <p>For example, some sighted users also use screen readers. If the visible text label doesn&rsquo;t match the accessible name, <b>this could be confusing</b>.</p>
           </section>
 
           <section data-background="#fff">
@@ -254,8 +258,17 @@
           </section>
 
           <section data-background="#fff">
-            <p>Let’s look at an example <code>&lt;input&gt;</code> element to try and find it’s accessible description:</p>
+            <p>Let&rsquo;s look at an example <code>&lt;input&gt;</code> element to <b>try and find the accessible description</b>:</p>
+            <p><a href="examples/06-accessible-description.html" target="_blank">Example 06</a></p>
+          </section>
+
+          <section data-background="#fff">
+            <p>And here is another example of <code>&lt;input&gt;</code> element with a <b>different method</b>:</p>
             <p><a href="examples/07-accessible-description.html" target="_blank">Example 07</a></p>
+          </section>
+
+          <section data-background="#fff">
+            <p>Just like accessible names, we&rsquo;ll be diving a lot deeper into <b>accessible descriptions</b> soon.</p>
           </section>
         </section>
 
@@ -273,11 +286,11 @@
           </section>
 
           <section data-background="#fff">
-            <p>What happens when you use <b>multiple methods to provide an accessible name</b> for an element?</p>
+            <p>What happens when you use <b>more than one method to provide an accessible name</b> for an element?</p>
           </section>
 
           <section data-background="#fff">
-            <p>Let’s look at an example with an <code>&lt;input&gt;</code> has <b>three possible sources</b> for the accessible name.</p>
+            <p>Let&rsquo;s look at an example with an <code>&lt;input&gt;</code> has <b>three possible sources</b> for the accessible name.</p>
             <p><a href="examples/08-three-possible-accessible-names.html" target="_blank">Example 08</a></p>
           </section>
 
@@ -297,7 +310,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>Let’s look at how <b>names and descriptions are calculated</b> for some example elements.</p>
+            <p>Let&rsquo;s look at how <b>names and descriptions are calculated</b> for some example elements.</p>
           </section>
         </section>
 
@@ -329,7 +342,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>We’re now going to look at a <code>&lt;button&gt;</code> example which has <b>all of these accessible name options</b> applied.</p>
+            <p>We&rsquo;re now going to look at a <code>&lt;button&gt;</code> example with <b>all of these accessible name options</b> applied.</p>
           </section>
 
           <section data-background="#fff">
@@ -342,7 +355,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>We’ll then <b>remove each accessible name option one-by-one</b>, until we’re left with no accessible name.</p>
+            <p>We&rsquo;ll then <b>remove each accessible name option one-by-one</b> until we&rsquo;re left with no accessible name.</p>
           </section>
 
           <section data-background="#fff">
@@ -356,7 +369,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>While all these methods are possible, <b>always try to use the element’s content</b> as the accessible name, as it is then available to all users.</p>
+            <p>While all these methods are possible, <b>always try to use the element&rsquo;s content</b> as the accessible name, as it is available to all users.</p>
           </section>
 
           <section data-background="#fff">
@@ -372,7 +385,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>We’re now going to look at a <code>&lt;button&gt;</code> example which has <b>both of these accessible description options</b> applied.</p>
+            <p>We&rsquo;re now going to look at a <code>&lt;button&gt;</code> example with <b>both of these accessible description options</b> applied.</p>
           </section>
 
           <section data-background="#fff">
@@ -383,7 +396,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>Again, we’ll then <b>remove each accessible description option one-by-one</b>, until we’re left with no accessible description.</p>
+            <p>Again, we&rsquo;ll then <b>remove each accessible description option one by one</b> until we&rsquo;re left with no accessible description.</p>
           </section>
 
           <section data-background="#fff">
@@ -417,7 +430,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>As we move through the examples, you’ll notice that the <code>title</code> attribute is theoretically the <b>last resort for an accessible name</b>.</p>
+            <p>As we move through the examples, you&rsquo;ll notice that the <code>title</code> attribute is theoretically the <b>last resort for an accessible name</b>.</p>
           </section>
 
           <section data-background="#fff">
@@ -432,7 +445,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>Because if this, if other accessible name options are present along with the <code>title</code>, this value <b>could become the accessible description</b>.</p>
+            <p>If other accessible name options are present along with the <code>title</code>, this value <b>could become the accessible description</b>.</p>
             <p><a href="examples/09-name-aria-labelledby.html" target="_blank">Example 09</a></p>
           </section>
 
@@ -441,7 +454,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>And, the <code>title</code> attribute should <b>never be used as an accessible description</b> for elements as it is extremely inaccessible.</p>
+            <p>And, the <code>title</code> attribute should <b>never be used as an accessible description</b> for elements as it is highly inaccessible.</p>
           </section>
         </section>
 
@@ -474,11 +487,11 @@
           </section>
 
           <section data-background="#fff">
-            <p>The <code>&lt;select&gt;</code> element uses a similar order, but <b>does not include the</b> <code>placeholder</code> step.</p>
+            <p>The <code>&lt;select&gt;</code> element uses a similar order but <b>does not include the</b> <code>placeholder</code> step.</p>
           </section>
 
           <section data-background="#fff">
-            <p>As before, we’ll now going to look at an <code>&lt;input&gt;</code> example which has <b>all of these accessible name options applied</b>.</p>
+            <p>As before, we&rsquo;re now going to look at an <code>&lt;input&gt;</code> example with <b>all of these accessible name options applied</b>.</p>
           </section>
 
           <section data-background="#fff">
@@ -492,7 +505,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>We’ll then <b>remove each accessible name option one-by-one</b>, until we’re left with no accessible name.</p>
+            <p>We&rsquo;ll then <b>remove each accessible name option one by one</b>, until we&rsquo;re left with no accessible name.</p>
           </section>
 
           <section data-background="#fff">
@@ -507,7 +520,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>Whenever possible, <b>always try to use the</b> <code>&lt;label&gt;</code> <b>content as the accessible name</b> for these form-related elements, as it is then available to all users.</p>
+            <p>Whenever possible, <b>always try to use the</b> <code>&lt;label&gt;</code> <b>content as the accessible name</b>, as it is available to all users.</p>
           </section>
 
           <section data-background="#fff">
@@ -523,7 +536,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>We’re now going to look at an <code>&lt;input&gt;</code> example which has <b>both of these accessible description options</b> applied.</p>
+            <p>We&rsquo;re now going to look at an <code>&lt;input&gt;</code> example with <b>both of these accessible description options</b> applied.</p>
           </section>
 
           <section data-background="#fff">
@@ -534,7 +547,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>Again, we’ll then <b>remove each accessible description option one-by-one</b>, until we’re left with no accessible description.</p>
+            <p>Again, we&rsquo;ll then <b>remove each accessible description option one by one</b> until we&rsquo;re left with no accessible description.</p>
           </section>
 
           <section data-background="#fff">
@@ -613,7 +626,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>Whenever possible, always <b>try to use the elements</b> <code>alt</code> <b>attribute</b> as the accessible name, as it is then available to all users.</p>
+            <p>Whenever possible, always <b>try to use the elements</b> <code>alt</code> <b>attribute</b> as the accessible name, as it is available to all users.</p>
           </section>
 
           <section data-background="#fff">
@@ -629,7 +642,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>If there is an <code>alt</code> attribute in place for the accessible name, <b>there should be no need to include an accessible description</b>.</p>
+            <p>If there is an <code>alt</code> attribute in place for the accessible name, <b>an accessible description should not be required</b>.</p>
           </section>
         </section>
 
@@ -661,7 +674,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>Whenever possible, <b>always try to use the</b> <code>&lt;legend&gt;</code> <b>elements content</b> as the accessible name, as it is then available to all users.</p>
+            <p>Whenever possible, <b>always try to use the</b> <code>&lt;legend&gt;</code> <b>elements content</b> as the accessible name, as it is available to all users.</p>
           </section>
 
           <section data-background="#fff">
@@ -695,7 +708,7 @@
           </section>
 
           <section data-background="#fff">
-            <p>In the following example, a radio group has <b>an error message</b> that is associated to the <code>&lt;fieldset&gt;</code> via an <code>aria-describedby</code>.</p>
+            <p>In the following example, a radio group has <b>an error message</b> associated with the <code>&lt;fieldset&gt;</code> via an <code>aria-describedby</code>.</p>
           </section>
 
           <section data-background="#222">
@@ -762,17 +775,7 @@
               <li>Which accessible names and descriptions win?</li>
             </ul>
           </section>
-        </section>
 
-
-
-<!--  –––––––––––––––––––––––––
-******  SECTION ******
-––––––––––––––––––––––––––  -->
-
-
-
-        <section>
           <section data-background="#99300A">
             <h2>Questions?</h2>
           </section>
@@ -792,7 +795,7 @@
         progress: true,
         history: true,
         center: true,
-        transition: 'none', // none/fade/slide/convex/concave/zoom
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
         plugins: [RevealNotes],
         // Optional reveal.js plugins
         dependencies: [
