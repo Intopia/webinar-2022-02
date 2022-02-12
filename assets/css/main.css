@@ -13,7 +13,7 @@ body {
 .reveal {
   color: #222;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
-  font-size: 2.85714285714286em;
+  font-size: 3em;
   font-weight: normal;
 }
 
@@ -45,19 +45,21 @@ h6 {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.85714285714286em;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2.14285714285714em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.42857142857143em;
 }
 
 h4 {
   margin: 0 0 .7em;
+  padding-left: 1em;
+  padding-right: 1em;
   color: #d3420d;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
   font-size: 1em;
@@ -93,10 +95,10 @@ paragraphs
 -----------------------*/
 
 p {
-  margin: 0 0 1.2em;
-  padding: 0 2em;
+  margin: 0 0 1em;
+  padding-left: 1em;
+  padding-right: 1em;
   line-height: 1.5;
-  font-size: 1.125em;
 }
 
 s {
@@ -108,7 +110,8 @@ lists
 -----------------------*/
 
 ul {
-  padding: 0 2em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 ul,
@@ -167,7 +170,7 @@ pre, code
   display: block;
   padding: 1em;
   font-family: consolas, courier, monospace;
-  font-size: .8em;
+  font-size: 0.761904761904762em;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -437,15 +440,15 @@ classes
 -----------------------*/
 
 .font-sm {
-  font-size: 85% !important;
+  font-size: 0.833333333333333em;
 }
 
 .font-xs {
-  font-size: 75% !important;
+  font-size: 0.714285714285714em;
 }
 
 .font-xxs {
-  font-size: 65% !important;
+  font-size: 0.595238095238095em;
 }
 
 .codeHighlight {
@@ -468,7 +471,7 @@ classes
 }
 
 .instructions {
-  font-size: .859em;
+  font-size: 0.761904761904762em;
 }
 
 .instructions-heading {
