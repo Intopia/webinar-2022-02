@@ -58,8 +58,6 @@ h3 {
 
 h4 {
   margin: 0 0 .7em;
-  padding-left: 1em;
-  padding-right: 1em;
   color: #d3420d;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
   font-size: 1em;
@@ -69,8 +67,9 @@ h4 {
 h5,
 .h5 {
   margin: 0;
+  color: #fff;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
-  font-size: 1.06062em;
+  font-size: 1em;
   line-height: 1;
 }
 
@@ -96,8 +95,6 @@ paragraphs
 
 p {
   margin: 0 0 1em;
-  padding-left: 1em;
-  padding-right: 1em;
   line-height: 1.5;
 }
 
@@ -108,11 +105,6 @@ s {
 /* ---------------------
 lists
 -----------------------*/
-
-ul {
-  padding-left: 1em;
-  padding-right: 1em;
-}
 
 ul,
 ol {
@@ -228,7 +220,7 @@ table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
-  font-size: .7em;
+  font-size: 0.714285714285714em;
   border-bottom: 2px solid #777;
 }
 
