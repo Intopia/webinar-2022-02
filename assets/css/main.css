@@ -13,7 +13,7 @@ body {
 .reveal {
   color: #222;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
-  font-size: 3em;
+  font-size: 2.85714285714286em;
   font-weight: normal;
 }
 
@@ -34,7 +34,7 @@ h4,
 h5,
 h6 {
   margin: 0 0 20px 0;
-  color: #222;
+  color: #d3420d;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
   font-weight: 900;
   line-height: 1;
@@ -45,20 +45,19 @@ h6 {
 }
 
 h1 {
-  font-size: 2.85714285714286em;
+  font-size: 3em;
 }
 
 h2 {
-  font-size: 2.14285714285714em;
+  font-size: 2.25em;
 }
 
 h3 {
-  font-size: 1.42857142857143em;
+  font-size: 1.5em;
 }
 
 h4 {
   margin: 0 0 .7em;
-  color: #d3420d;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, Frutiger, 'Frutiger Linotype', Univers, Calibri, 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', Myriad, 'DejaVu Sans Condensed', 'Liberation Sans', 'Nimbus Sans L', Tahoma, Geneva, sans-serif;
   font-size: 1em;
   line-height: 1.2;
@@ -162,7 +161,7 @@ pre, code
   display: block;
   padding: 1em;
   font-family: consolas, courier, monospace;
-  font-size: 0.761904761904762em;
+  font-size: 0.75em;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
@@ -220,8 +219,8 @@ table {
   width: 100%;
   border-spacing: 0;
   border-collapse: collapse;
-  font-size: 0.714285714285714em;
   border-bottom: 2px solid #777;
+  font-size: 0.75em;
 }
 
 table th,
@@ -432,15 +431,15 @@ classes
 -----------------------*/
 
 .font-sm {
-  font-size: 0.833333333333333em;
+  font-size: 0.875em;
 }
 
 .font-xs {
-  font-size: 0.714285714285714em;
+  font-size: 0.75em;
 }
 
 .font-xxs {
-  font-size: 0.595238095238095em;
+  font-size: 0.625em;
 }
 
 .codeHighlight {
@@ -463,16 +462,17 @@ classes
 }
 
 .instructions {
-  font-size: 0.761904761904762em;
+  font-size: 0.75em;
 }
 
 .instructions-heading {
-  font-size: 1.412em;
-  margin: 0 0 .7em;
+  font-size: 1.5em;
+  margin: 0 0 1em;
 }
 
+.instructions p,
 .instructions div {
-  margin: 0 0 .7em;
+  margin: 0 0 .5em;
 }
 
 .success {
